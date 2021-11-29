@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "initialBalance": 1000,
+      "maintainingBalance": 1000,
+      "pin": "928176"
+    }
+  ],
+  "transactions": [
+    { "id": 1, "type": "deposit", "amount": 500, "userId": 1 },
+    { "id": 2, "type": "withdraw", "amount": 200, "userId": 1 }
+  ]
+}
